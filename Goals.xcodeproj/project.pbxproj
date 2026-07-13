@@ -201,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				FD2E204D2FFD8D780099C118 /* Cards */,
+				FD2E207530045CF20099C118 /* Charts */,
 				FD2E204E2FFD8D780099C118 /* CalendarView.swift */,
 				FD2E204F2FFD8D780099C118 /* GoalView.swift */,
 				FD2E20502FFD8D780099C118 /* StreakView.swift */,
@@ -209,19 +210,18 @@
 				FD2E20532FFD8D780099C118 /* TopicDetailView.swift */,
 				FD2E20542FFD8D780099C118 /* TopicEntryView.swift */,
 				FD2E20552FFD8D780099C118 /* TopicListView.swift */,
-				FD2E207530045CF20099C118 /* Chart */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		FD2E207530045CF20099C118 /* Chart */ = {
+		FD2E207530045CF20099C118 /* Charts */ = {
 			isa = PBXGroup;
 			children = (
 				FD2E207630045D070099C118 /* ProgressPlanChartData.swift */,
 				FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */,
 				FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */,
 			);
-			path = Chart;
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
