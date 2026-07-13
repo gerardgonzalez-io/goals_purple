@@ -38,6 +38,9 @@
 		FD2E20702FFD8D780099C118 /* TopicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E204C2FFD8D780099C118 /* TopicCard.swift */; };
 		FD2E20712FFD8D780099C118 /* ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E20472FFD8D780099C118 /* ActionCard.swift */; };
 		FD2E20732FFD8E080099C118 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = FD2E20722FFD8E080099C118 /* Documentation.docc */; };
+		FD2E207730045D070099C118 /* ProgressPlanChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207630045D070099C118 /* ProgressPlanChartData.swift */; };
+		FD2E207930045D5C0099C118 /* ProgressPlanChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */; };
+		FD2E207B300462130099C118 /* ProgressPlanOverviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 		FD2E20542FFD8D780099C118 /* TopicEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicEntryView.swift; sourceTree = "<group>"; };
 		FD2E20552FFD8D780099C118 /* TopicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicListView.swift; sourceTree = "<group>"; };
 		FD2E20722FFD8E080099C118 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		FD2E207630045D070099C118 /* ProgressPlanChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanChartData.swift; sourceTree = "<group>"; };
+		FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanChartView.swift; sourceTree = "<group>"; };
+		FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanOverviewCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,8 +209,19 @@
 				FD2E20532FFD8D780099C118 /* TopicDetailView.swift */,
 				FD2E20542FFD8D780099C118 /* TopicEntryView.swift */,
 				FD2E20552FFD8D780099C118 /* TopicListView.swift */,
+				FD2E207530045CF20099C118 /* Chart */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FD2E207530045CF20099C118 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				FD2E207630045D070099C118 /* ProgressPlanChartData.swift */,
+				FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */,
+				FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */,
+			);
+			path = Chart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +331,7 @@
 				FD2E201E2FFD8CAB0099C118 /* GoalsApp.swift in Sources */,
 				FD2E201F2FFD8CAB0099C118 /* ContentView.swift in Sources */,
 				FD2E20572FFD8D780099C118 /* StreakCalculator.swift in Sources */,
+				FD2E207930045D5C0099C118 /* ProgressPlanChartView.swift in Sources */,
 				FD2E20582FFD8D780099C118 /* NavigationOptions.swift in Sources */,
 				FD2E20592FFD8D780099C118 /* StreakView.swift in Sources */,
 				FD2E205A2FFD8D780099C118 /* TopicEntryView.swift in Sources */,
@@ -329,12 +347,14 @@
 				FD2E20652FFD8D780099C118 /* StreakSummaryCard.swift in Sources */,
 				FD2E20662FFD8D780099C118 /* SummaryCard.swift in Sources */,
 				FD2E20672FFD8D780099C118 /* TimeCalculator.swift in Sources */,
+				FD2E207730045D070099C118 /* ProgressPlanChartData.swift in Sources */,
 				FD2E20682FFD8D780099C118 /* GoalEvaluator.swift in Sources */,
 				FD2E20692FFD8D780099C118 /* DataContainer.swift in Sources */,
 				FD2E206A2FFD8D780099C118 /* TimeSummaryCard.swift in Sources */,
 				FD2E206B2FFD8D780099C118 /* Goal.swift in Sources */,
 				FD2E206C2FFD8D780099C118 /* TopicDetailView.swift in Sources */,
 				FD2E206E2FFD8D780099C118 /* TimesView.swift in Sources */,
+				FD2E207B300462130099C118 /* ProgressPlanOverviewCard.swift in Sources */,
 				FD2E206F2FFD8D780099C118 /* CalendarView.swift in Sources */,
 				FD2E20702FFD8D780099C118 /* TopicCard.swift in Sources */,
 				FD2E20712FFD8D780099C118 /* ActionCard.swift in Sources */,

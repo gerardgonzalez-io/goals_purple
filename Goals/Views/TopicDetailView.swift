@@ -33,6 +33,14 @@ struct TopicDetailView: View
                     Text("Study History")
                         .font(.headline)
 
+                    NavigationLink(value: TopicDetailRoute.progressPlanView)
+                    {
+                        ProgressPlanOverviewCard(
+                            topicID: topicID,
+                            topicName: topicName)
+                    }
+                    .buttonStyle(.plain)
+
                     NavigationLink(value: TopicDetailRoute.timesView)
                     {
                         TopicCard(
@@ -92,6 +100,8 @@ struct TopicDetailView: View
                 CalendarView(topicID: topicID, topicName: topicName)
             case .goalView:
                 GoalView(topicID: topicID, topicName: topicName)
+            case .progressPlanView:
+                ProgressPlanChartView(topicID: topicID, topicName: topicName)
             }
         }
     }
@@ -104,6 +114,7 @@ private enum TopicDetailRoute: Hashable
     case timesView
     case calendarView
     case goalView
+    case progressPlanView
 }
 
 #Preview
