@@ -4,6 +4,7 @@ import SwiftUI
 struct TimerView: View
 {
     @Environment(\.modelContext) private var modelContext
+    //@Environment(\.scenePhase) private var scenePhase
     let topicID: UUID
     let topicName: String
 
@@ -108,6 +109,22 @@ struct TimerView: View
             catch
             {}
         }
+        /*
+        .onChange(of: scenePhase)
+        { _, newPhase in
+            switch newPhase
+            {
+            case .active:
+                print("TimerView: App is active")
+            case .inactive:
+                print("TimerView: App is temporarily inactive")
+            case .background:
+                print("TimerView: App entered background")
+            @unknown default:
+                print("TimerView: App entered unknown scene phase")
+            }
+        }
+        */
     }
 
     private func timerActionButtonLabel(title: String, isEnabled: Bool, isPrimary: Bool) -> some View
@@ -204,7 +221,6 @@ struct TimerView: View
         }
 
         try modelContext.save()
-        //deleteSessionIDFromUserDefaults()
 
         currentSession = nil
         currentInterval = nil

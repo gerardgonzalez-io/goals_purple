@@ -42,6 +42,8 @@
 		FD2E207930045D5C0099C118 /* ProgressPlanChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */; };
 		FD2E207B300462130099C118 /* ProgressPlanOverviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */; };
 		FD2E208130053C4F0099C118 /* SwiftDataTesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207F30053C4F0099C118 /* SwiftDataTesterView.swift */; };
+		FD2E208330067EA40099C118 /* DataContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E208230067EA40099C118 /* DataContainerTests.swift */; };
+		FD2E20853006807B0099C118 /* DataContainerStartupCleanupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E20843006807B0099C118 /* DataContainerStartupCleanupTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanChartView.swift; sourceTree = "<group>"; };
 		FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanOverviewCard.swift; sourceTree = "<group>"; };
 		FD2E207F30053C4F0099C118 /* SwiftDataTesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataTesterView.swift; sourceTree = "<group>"; };
+		FD2E208230067EA40099C118 /* DataContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainerTests.swift; sourceTree = "<group>"; };
+		FD2E20843006807B0099C118 /* DataContainerStartupCleanupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainerStartupCleanupTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 				FD2E20312FFD8D070099C118 /* GoalEvaluatorTests.swift */,
 				FD2E20322FFD8D070099C118 /* StreakCalculatorTests.swift */,
 				FD2E20332FFD8D070099C118 /* TimeCalculatorTests.swift */,
+				FD2E208230067EA40099C118 /* DataContainerTests.swift */,
+				FD2E20843006807B0099C118 /* DataContainerStartupCleanupTests.swift */,
 			);
 			path = GoalsTests;
 			sourceTree = "<group>";
@@ -380,6 +386,8 @@
 				FD2E20342FFD8D070099C118 /* GoalEvaluatorTests.swift in Sources */,
 				FD2E20352FFD8D070099C118 /* StreakCalculatorTests.swift in Sources */,
 				FD2E20362FFD8D070099C118 /* TimeCalculatorTests.swift in Sources */,
+				FD2E208330067EA40099C118 /* DataContainerTests.swift in Sources */,
+				FD2E20853006807B0099C118 /* DataContainerStartupCleanupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
