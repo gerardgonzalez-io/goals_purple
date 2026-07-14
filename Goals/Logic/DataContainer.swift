@@ -23,6 +23,7 @@ class DataContainer
         let schema = Schema([
             Topic.self,
             StudySession.self,
+            SessionInterval.self,
             Goal.self
         ])
 
