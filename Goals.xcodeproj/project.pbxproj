@@ -41,6 +41,7 @@
 		FD2E207730045D070099C118 /* ProgressPlanChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207630045D070099C118 /* ProgressPlanChartData.swift */; };
 		FD2E207930045D5C0099C118 /* ProgressPlanChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */; };
 		FD2E207B300462130099C118 /* ProgressPlanOverviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */; };
+		FD2E208130053C4F0099C118 /* SwiftDataTesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E207F30053C4F0099C118 /* SwiftDataTesterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		FD2E207630045D070099C118 /* ProgressPlanChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanChartData.swift; sourceTree = "<group>"; };
 		FD2E207830045D5C0099C118 /* ProgressPlanChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanChartView.swift; sourceTree = "<group>"; };
 		FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlanOverviewCard.swift; sourceTree = "<group>"; };
+		FD2E207F30053C4F0099C118 /* SwiftDataTesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataTesterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		FD2E201D2FFD8CAB0099C118 /* Goals */ = {
 			isa = PBXGroup;
 			children = (
+				FD2E208030053C4F0099C118 /* Tester */,
 				FD2E20442FFD8D780099C118 /* Models */,
 				FD2E20562FFD8D780099C118 /* Views */,
 				FD2E203E2FFD8D780099C118 /* Logic */,
@@ -222,6 +225,14 @@
 				FD2E207A300462130099C118 /* ProgressPlanOverviewCard.swift */,
 			);
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		FD2E208030053C4F0099C118 /* Tester */ = {
+			isa = PBXGroup;
+			children = (
+				FD2E207F30053C4F0099C118 /* SwiftDataTesterView.swift */,
+			);
+			path = Tester;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +365,7 @@
 				FD2E206B2FFD8D780099C118 /* Goal.swift in Sources */,
 				FD2E206C2FFD8D780099C118 /* TopicDetailView.swift in Sources */,
 				FD2E206E2FFD8D780099C118 /* TimesView.swift in Sources */,
+				FD2E208130053C4F0099C118 /* SwiftDataTesterView.swift in Sources */,
 				FD2E207B300462130099C118 /* ProgressPlanOverviewCard.swift in Sources */,
 				FD2E206F2FFD8D780099C118 /* CalendarView.swift in Sources */,
 				FD2E20702FFD8D780099C118 /* TopicCard.swift in Sources */,
@@ -524,7 +536,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.gerardgonzalez.Goals;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gerardgonzalez.GoalsDisciplineBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
